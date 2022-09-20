@@ -7,15 +7,13 @@
  * Return: 0 if there is no cycle,
  * 1 if there is a cycle
  */
-
-int check_cycle(listint t *list)
+int check_cycle(listint_t *list)
 {
 	listint_t *p2;
 	listint_t *prev;
 
 	p2 = list;
 	prev = list;
-
 	while (list && p2 && p2->next)
 	{
 		list = list->next;
@@ -33,7 +31,7 @@ int check_cycle(listint t *list)
 					p2 = p2->next;
 				}
 				if (p2->next == list)
-				break;
+					break;
 
 				list = list->next;
 			}
