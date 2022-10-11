@@ -8,7 +8,7 @@ class Square:
         """square class is being initialized
         size - is an arguement that is being passed
         """
-        if (size != int):
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         else:
             if size < 0:
