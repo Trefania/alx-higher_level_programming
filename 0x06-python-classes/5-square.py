@@ -36,3 +36,12 @@ class Square:
         Returns: The square of the size
         """
         return (self.__size ** 2)
+
+    def my_print(self):
+        """print the square in # """
+
+        if self.__size == 0:
+            print()
+
+        for i in range(self.__size):
+            print("#" * self.__size)
