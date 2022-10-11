@@ -19,7 +19,7 @@ class Square:
             def area(self):
                 """
                 you need to calculate the area to the square
-                Returns: square of the size
+                Returns:
+                    square of the size
                 """
-
-                return (self.__size ** 2)
+                return (self.__size) ** 2
