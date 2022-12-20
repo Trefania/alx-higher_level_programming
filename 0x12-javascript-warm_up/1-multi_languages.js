@@ -1,7 +1,6 @@
 #!/usr/bin/node
+/* A Script that prints 3 lines */
 
-let first_line = "C is fun";
-let sec_line = "Python is cool";
-let third_line = "JavaScript is amazing";
-
-console.log(first_line, sec_line, third_line);
+console.log('C is fun');
+console.log('Python is cool');
+console.log('JavaScript is amazing');
