@@ -1,9 +1,7 @@
 #!/usr/bin/node
-
+/* Declaring an array of languages */
 const myArr = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-let i = 0;
-
-while (i < myArr.length) {
-  console.log(myArr[i]);
-  i++;
+for (const myArr of languages) {
+  /* print the output */
+  console.log(myArr);
 }

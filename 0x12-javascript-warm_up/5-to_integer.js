@@ -1,8 +1,8 @@
 #!/usr/bin/node
-
-const argsToConvert = parseInt(process.argv[2]);
-if (isNaN(argsToConvert)) {
-  console.log('Not a number');
-} else {
-  console.log('My number: ' + argsToConvert);
-}
+/**
+ * create a constant variable `num` and assign the second arg to it
+ * convert the second arg to Number
+ * if it throws NaN error, print out `Not a number`
+ */
+const num = Math.floor(Number(process.argv[2]));
+console.log(isNaN(num) ? 'Not a number' : `My number: ${num}`);
