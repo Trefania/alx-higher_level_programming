@@ -1,1 +1,1 @@
-This is my readme in python.
+All my folder for Python, JavaScript & SQL..
