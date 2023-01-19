@@ -10,6 +10,6 @@ from sys import argv
 
 if __name__ == "__main__":
     request = urllib.request.Request(argv[1])
-    with urllib.request.urlopen(request) as resp:
-        value = dict(resp.headers).get('X-Request-Id')
+    with urllib.request.urlopen(request) as res:
+        value = dict(res.headers).get('X-Request-Id')
         print(value)
