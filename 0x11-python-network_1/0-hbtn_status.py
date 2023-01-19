@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# script that fetches https://alx-intranet.hbtn.io/status
-# You must use the package urllib
+"""script that fetches https://alx-intranet.hbtn.io/status
+You must use the package urllib"""
 import urllib.request
 
 if __name__ == "__main__":
