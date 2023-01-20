@@ -2,10 +2,11 @@
 """
 takes in a URL, sends a request to the URL
 """
+import urllib.error as error
+import urllib.request as request
+from sys import arg
+
 if __name__ == "__main__":
-    import urllib.error as error
-    import urllib.request as request
-    from sys import argv
     req = request.Request(argv[1])
     try:
         with request.urlopen(req) as r:
