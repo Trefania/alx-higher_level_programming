@@ -2,6 +2,7 @@
 """
 a Python script that takes in a URL, sends a request to the URL
 """
+
 if __name__ == "__main__":
     import urllib.request as request
     from sys import argv
