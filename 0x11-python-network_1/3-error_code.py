@@ -4,7 +4,7 @@ takes in a URL, sends a request to the URL
 """
 import urllib.error as error
 import urllib.request as request
-from sys import arg
+from sys import argv
 
 if __name__ == "__main__":
     req = request.Request(argv[1])
